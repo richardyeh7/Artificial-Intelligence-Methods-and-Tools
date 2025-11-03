@@ -2,7 +2,7 @@
 
 # Chest X-ray Pneumonia Classification
 
-## 🩻 Project Overview
+##  Project Overview
 
 With the rapid growth of medical imaging, chest X-rays have become a vital tool for diagnosing lung diseases. However, manual interpretation is time-consuming and error-prone.  
 In this project, we aim to **automate pneumonia detection** from chest X-ray images using deep learning.  
@@ -29,7 +29,7 @@ Through data augmentation and early stopping, our **ResNet model achieved 90.87%
    - With Adam (1e-3) training was unstable → switched to SGD
    - Augmentation + early stopping improved VGG16, VGG19 did not surpass it
 
-2. **ResNet (e.g. ResNet50)** ✅
+2. **ResNet (e.g. ResNet50)** 
    - Residual blocks + skip connections → better gradient flow
    - With augmentation and early stopping, this model achieved the best generalization
    - **Test Accuracy: 90.87%**
