@@ -42,6 +42,13 @@ Through data augmentation and early stopping, our **ResNet model achieved 90.87%
 4. **LeNet (dropped)**
    - Input resolution too small (28×28) for this medical dataset → information loss → not used in final comparison
 
+## 📘 View in Google Colab
+
+- [ResNet Notebook](https://colab.research.google.com/github/richardyeh7/Artificial-Intelligence-Methods-and-Tools/blob/main/ResNet.ipynb)
+- [VGG16 Notebook]([https://colab.research.google.com/drive/yyyyyyyyyyyy](https://colab.research.google.com/github/richardyeh7/Artificial-Intelligence-Methods-and-Tools/blob/main/VGG16.ipynb))
+- [AlexNet Notebook](https://colab.research.google.com/github/richardyeh7/Artificial-Intelligence-Methods-and-Tools/blob/main/AlexNet.ipynb#scrollTo=kS9EX6T_YxWZ)
+
+
 ## 3. Training Tricks
 
 - **Data Augmentation** (PyTorch `transforms`):
