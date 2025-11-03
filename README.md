@@ -2,7 +2,13 @@
 
 # Chest X-ray Pneumonia Classification
 
-This project builds and compares several convolutional neural networks (VGG16/19, ResNet, AlexNet) on the **Kaggle Chest X-ray Images (Pneumonia)** dataset to detect pneumonia from pediatric chest X-rays.
+## 🩻 Project Overview
+
+With the rapid growth of medical imaging, chest X-rays have become a vital tool for diagnosing lung diseases. However, manual interpretation is time-consuming and error-prone.  
+In this project, we aim to **automate pneumonia detection** from chest X-ray images using deep learning.  
+We implement and compare several CNN architectures — **VGG16/19, ResNet, and AlexNet** — on the **Kaggle Chest X-ray (Pneumonia)** dataset.  
+Through data augmentation and early stopping, our **ResNet model achieved 90.87% accuracy and 93.04% F1-score**, outperforming other models and demonstrating the potential of AI-assisted diagnosis.
+
 
 - **Dataset:** 5,863 X-ray images (JPEG), split into `train/`, `val/`, `test/`, each with `NORMAL/` and `PNEUMONIA/` folders. Data originates from Guangzhou Women and Children’s Medical Center.
 - **Goal:** reduce reliance on manual reading and improve diagnostic speed by providing an automated screening model.
