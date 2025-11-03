@@ -69,11 +69,3 @@ ResNet confusion matrix shows:
 - Few false negatives (9 normal predicted)
 - Fewer false positives than VGG
 
-## 5. How to Run
-
-```bash
-git clone https://github.com/richardyeh7/cxr-resnet.git
-cd cxr-resnet
-pip install -r requirements.txt
-python train.py --model resnet --epochs 30
-python eval.py --model resnet
